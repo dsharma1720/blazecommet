@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PayPal Payment Form</title>
+
+</head>
+<style>
+    .form-center {
+  justify-content: center;
+}
+</style>
+<body>
+<form action="/action_page.php" class="form-center">
+<h1 style="font-family:sans-serif">PayPal Payment Form</h1>
+<hr>
+<p style="font-family:sans-serif">Are you interested in buying a product using PayPal?</p>
+<p style="font-family:sans-serif">Products<span style="color:red">*</span></p>
+<input type="checkbox" name="first-product">First product 500$<br><br>
+<input type="checkbox" name="second-product">Second product 1000$<br><br>
+<input type="checkbox" name="third-product">Third product 1500$<br><br>
+
+<label for="shopping-cart" style="font-family:sans-serif">Shopping Cart<span style="color:red">*</span></label><br>
+
+    <input type="text" name="shopping-cart" style="height:70px; text-align:center" placeholder="Shopping cart is empty" size="109" id="shopping-cart">
+    <br>
+    <br>
+<label for="first" style="font-family:sans-serif">Your Name<span style="color:red">*</span></label>
+<br>
+
+<input id="first" name="first" type="text" style="height:30px; display:inline-block" placeholder="First" size="50" >
+   &emsp;
+<input type="text" name="last" style="height:30px; display:inline-block" placeholder="Last" size="50">
+<br><br>
+<label for="email" style="font-family:sans-serif">Email<span style="color:red">*</span></label><br>
+<input type="text" name="email" style="height:30px" placeholder="john.doe@gmail.com" size="109" id="email"><br><br>
+<label for="address" style="font-family:sans-serif">Address<span style="color:red">*</span></label>
+<br>
+<input type="text" name="address-1" style="height:30px" placeholder="Address line 1" size="109" id="address"><br></br>
+ <input type="text" name="address-2" style="height:30px" placeholder="Address line 2" size="109">
+
+<br>
+<br>
+    <input type="text" name="city" style="height:30px" placeholder="City" size="50">&emsp;
+    <input type="text" name="region" style="height:30px" placeholder="Region" size="50">
+
+<br>
+<br>
+        <input type="text" name="zip" style="height:30px" placeholder="Postal / Zip Code" size="50">&emsp;
+     <select id="countries" name="countries" style="width:370px; height:35px">
+  <option value="Romania">Romania</option>
+         <option value="Afghanistan">Afghanistan</option>
+        <option value="Åland Islands">Åland Islands</option>
+                <option value="Albania">Albania</option>
+                <option value="Algeria">Algeria</option>
+     </select>
+<br>
+<br>
+ <button type="submit" style="height:40px; width:150px; background-color:black; color:white">Complete order</button>
+</form>
+</div>
+</body>
+</html>
+
+
+
+
+
